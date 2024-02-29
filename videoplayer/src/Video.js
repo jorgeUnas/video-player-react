@@ -1,3 +1,5 @@
+import styles from './Video.module.css';
+
 function Video(props) {
     return (
       <div >
