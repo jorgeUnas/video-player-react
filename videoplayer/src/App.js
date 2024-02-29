@@ -16,9 +16,15 @@ function App() {
   const onSelectVideoHandler = (newVideo) => {
     setSrc(VIDEOS[newVideo]);
   };
+  
+  const myStyle = {
+  background: 'lightblue',
+  color: 'darkblue'
+  }
+  
 	return (
       <div>
-        <h1>Video Player</h1>
+        <h1 style={myStyle} >Video Player</h1>
         <Menu onSelectVideo={onSelectVideoHandler} />
         <Video src={src}  />
       </div>
