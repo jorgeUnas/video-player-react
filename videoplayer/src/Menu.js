@@ -1,3 +1,5 @@
+import styles from './Menu.module.css';
+
 function Menu(props) {
   function clickHandler(event){
     const name = event.target.value;
