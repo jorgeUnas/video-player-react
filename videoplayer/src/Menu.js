@@ -4,11 +4,11 @@ function Menu(props) {
     props.onSelectVideo(name);
   }
 	return (
-		  <form onClick={clickHandler}>
+		  <form onClick={clickHandler} style={{color: 'red'}} >
 			  <input type="radio" name="src" value="fast"/> fast
 			  <input type="radio" name="src" value="slow" /> slow
 			  <input type="radio" name="src" value="cute" /> cute
-			  <input type="radio" name="src" value="eek" /> eek
+			  <input type="radio" name="src" value="eek"  /> eek
 		  </form>
 		);
 };
